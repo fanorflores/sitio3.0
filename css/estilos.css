@@ -4,5 +4,8 @@ nav{ display: flex; align-items: center; justify-content: center; background-col
 nav ul li{ display: inline-flex; list-style: none; margin: 5px; padding: 10px; background-color: white; border:#00af00 solid 2px; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; }
 nav ul li a { text-decoration: none; color: blueviolet; font-weight: 800; font-size: 20px;}
 aside { display: flex; justify-content: left; width: 30%; background-color: aquamarine; float: left; height: 450px;}
-section { display: flex; justify-content: left; width: 70%; background-color: beige; float: left; height: 450px;}
+section {  justify-content: left; width: 70%; background-color: beige; float: left; height: 450px;}
 footer{width: 100%; float: left; height: 40px; background-color: brown; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; font-family: Arial, Helvetica, sans-serif;}
+#titulo{display: flex; align-items: center; justify-content: left; width: 100%;}
+.cat{display: flex; align-items: center; justify-content: center;}
+.cat article { width: 30%; padding: 3%;}
